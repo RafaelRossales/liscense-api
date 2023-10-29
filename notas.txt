@@ -1,0 +1,3 @@
+npm run typeorm migration:create ./src/shared/infra/typeorm/migrations/CreateCompany
+npm run typeorm migration:create ./src/shared/infra/typeorm/migrations/CreateLiscense
+npm run typeorm migration:run  -- -d ./src/shared/infra/typeorm
